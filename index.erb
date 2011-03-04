@@ -16,15 +16,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link rel="shortcut icon" href="favicon.ico">
-	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="shortcut icon" href="<%= @theme.path %>/favicon.ico">
+	<link rel="apple-touch-icon" href="<%= @theme.path %>/apple-touch-icon.png">
 	
-	<link rel="stylesheet" href="css/style.css?v=1">
+	<link rel="stylesheet" href="<%= @theme.path %>/css/style.css?v=1">
 
-	<script src="js/libs/jquery-1.5.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/libs/modernizr-1.6.min.js"></script>
-	<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
-	<script src="js/libs/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+	<script src="<%= @theme.path %>/js/libs/jquery-1.5.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="<%= @theme.path %>/js/libs/modernizr-1.6.min.js"></script>
+	<link rel="stylesheet" href="<%= @theme.path %>/css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+	<script src="<%= @theme.path %>/js/libs/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 	<div id="header-container">
@@ -51,10 +51,10 @@
       				<span class="subtitle">または 03-5579-8029 まで</span>
     			</a>
     		<a href="http://aws.amazon.com/jp/solutions/solution-providers/serverworks/" target="_blank" id="ribbon">
-				<img src="img/amaoznSolutionProvider.png" alt="Amazon web services Solution Provider">
+				<img src="<%= @theme.path %>/img/amaoznSolutionProvider.png" alt="Amazon web services Solution Provider">
 			</a>
 			<a href="#campaignText" id="campaign" rel="prettyPhoto">
-				<img src="img/campaign.png" alt="AWS東京リージョンオープン記念 クラウド導入キャンペーン！">
+				<img src="<%= @theme.path %>/img/campaign.png" alt="AWS東京リージョンオープン記念 クラウド導入キャンペーン！">
 			</a>
 			<div id="campaignText" class="hide">
 				<p><strong>「Amazon 東京データセンター開設記念特別価格」</strong>として<strong>「吟味」「討入」</strong>を併せて通常価格80万円のところ、<strong>先着10社</strong>まで<strong>特別価格の20万円</strong>で提供します。（作業時間300分、20サーバーまで）</p>
@@ -75,13 +75,13 @@
 			<h3>導入事例</h3>
 				<p>株式会社 電通</p>
 				<a href="#caseText" rel="prettyPhoto">
-					<img src="img/jirei.jpg" alt="導入事例 - 株式会社電通" class="picshadow">
+					<img src="<%= @theme.path %>/img/jirei.jpg" alt="導入事例 - 株式会社電通" class="picshadow">
 				</a>
 				<div id="caseText" class="hide" style="min-height:300px;">
 					<h4>エンデマ：<a href="http://endema.jp" target="_blank">http://endema.jp</a></h4>
 					<p>会員の皆様がお気に入りのコンテンツを選び、フォトブックやポスター、卓上カレンダーなどのさまざまなアイテムを作成できるサービスです。<br>
 					大石蔵人之助による「吟味」「討入」により最適なクラウドサービスへの移行計画がまとまり、某ホスティングサービスからAmazon Web Services上でのサービス提供をスムーズに実現しました。</p>
-					<img src="img/jirei.jpg" alt="導入事例 - 株式会社電通" class="picshadow" style="display:block;margin:auto;">
+					<img src="<%= @theme.path %>/img/jirei.jpg" alt="導入事例 - 株式会社電通" class="picshadow" style="display:block;margin:auto;">
 				</div>
 			</div>
 		</div>
@@ -91,7 +91,7 @@
 		<footer class="wrapper">
 			<div id="links">
 				<a href="http://blog.serverworks.co.jp/ceo/" target="_blank">
-					<img src="img/btn_ceoblog.gif" alt="Serverworks 社長ブログ" class="picshadow">
+					<img src="<%= @theme.path %>/img/btn_ceoblog.gif" alt="Serverworks 社長ブログ" class="picshadow">
 				</a>
 			</div>
 			<!--twitter script-->
